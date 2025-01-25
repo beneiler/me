@@ -1,65 +1,109 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>About Me</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Eiler’s Introduction Website</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+      }
+      section {
+        background: #e7e7e7;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+      }
+      section h2 {
+        margin-top: 0;
+      }
+      ul {
+        list-style-type: square;
+        padding-left: 20px;
+      }
+      .profile-img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 50%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="main-info">
-            <h1>[Benjamin Eiler]</h1>
-            <h1>Preferred Name: [Ben Eiler]</h1>
-        </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: [Junior]</h2>
-			<h2>Lewis major/minor/concentrations: [Computer Science]</h2>
-			<h2>Reasons for pursuing this degree: [I am pursuing this degree to get a job in IT Security after school]</h2>
-        </section>
+      <h1 style="text-align: center">Ben Eiler’s Introduction Website</h1>
+      <p style="text-align: center">
+        <a href="mailto:benjaminseiler@lewisu.edu">benjaminseiler@lewisu.edu</a>
+      </p>
+      <p style="text-align: center">Discord: benei1er</p>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Because SWE is such a popular field now and I would like to learn more about it overall]</p>
-        </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[I work as a Customer Service Representative where I handle customer questions and concerns, and I make sure to refer them to the proper place for their issue(s).]</p>
-        </section>		
+      <a href="me-800-by-800.jpeg" target="_blank">
+        <img
+          src="me-300-by-300.jpeg"
+          alt="Thumbnail of Ben Eiler"
+          class="profile-img"
+          width="300"
+          height="300"
+        />
+      </a>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[I like to go to the gym, watch movies, and watch football!]</p>
-        </section>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Hi, I’m Ben Eiler. I’m a junior at Lewis University majoring in
+          Computer Science.
+          <p>
+            My family and I are very close, and they’ve been my
+            biggest supporters in my academic journey, I am with my mom, dad, and sister who is a sophomore in high school.
+          </p>
+        </p>
+      </section>
 
-        <section class="fun-fact">
-            <h2>Fun Fact</h2>
-            <p>[A fun fact is that I recently got my Security+ Certification from CompTIA!]</p>
-        </section>
+
+      <section>
+        <h2>What I Hope to Learn in This Course</h2>
+        <ul>
+          <li>
+            Develop a better understanding of Git, Azure, etc.
+          </li>
+          <li>Learn about SWE practices and software devleopment life cycles.</li>
+          <li>
+            Improve my web development capabilities and overall knowledge.
+          </li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>My Favorite Hobby / Activity</h2>
+        <ul>
+          <li>Going to the gym</li>
+          <li>Watching football</li>
+        </ul>
+        <p>
+          The Chicago Bears recently hired Ben Johnson as their new head coach!
+          <a href="https://www.chicagobears.com/team/coaches/ben-johnson" target="_blank">Ben Johnsons Profile</a>.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>Fun Fact</h2>
+        <p>
+          “A fun fact about me is that I recently earned my Security+
+          Certification from CompTIA!”
+        </p>
+      </section>
     </div>
-</body>
+  </body>
 </html>
+
